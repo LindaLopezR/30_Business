@@ -1,0 +1,37 @@
+#fondo {
+	background-image: url(../image/large.jpg);
+	background-size: 100%;
+	background-position: 
+	opacity: 0.5;
+}
+#fon-Gr {
+	background-color: rgba(88, 88, 88, .7);	
+}
+#fon-Az {
+	background-color: rgba(104, 135, 229, .7);	
+}
+.text1 {
+	margin: 16% 0 10% 0; 
+	font-size: 3.2em;
+}
+.c-Bla, ul.navbar-right li a {
+	color: white;
+}
+.btn-Az {
+	border: 2px solid white !important;
+	background-color: transparent;
+	font-size: 2em !important;
+}
+/*MARGENES*/
+.m-1 {
+	margin: 1% 0;
+}
+.mt-2 {
+	margin-top: 2%;
+}
+.mt-3 {
+	margin: 3% 0;
+}
+.mt-5 {
+	margin: 5% 0;
+}
