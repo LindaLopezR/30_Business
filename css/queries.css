@@ -1,0 +1,12 @@
+@media screen and (max-width : 600px) {
+	.btn-Az {
+		font-size: 1.5em !important;
+	}
+	iframe {
+		width: 100%;
+	}
+}
+@media screen and (max-width :780px) {
+	.flecha, .logoP {
+		opacity: 0;
+	}

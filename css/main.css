@@ -1,21 +1,32 @@
 #fondo {
 	background-image: url(../image/large.jpg);
-	background-size: 100%;
-	background-position: 
-	opacity: 0.5;
+	background-size: 100% 120%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-#fon-Gr {
+.fon-Gr {
 	background-color: rgba(88, 88, 88, .7);	
 }
 #fon-Az {
-	background-color: rgba(104, 135, 229, .7);	
+	background-color: rgba(104, 135, 229, .8);
 }
-.text1 {
+.fon-img {
+	background-image: url(../image/sec-2.jpg);
+	background-size: 150%;
+	background-position: 10% 0%;
+	padding-bottom: 10%;
+	background-repeat: no-repeat;
+	padding-bottom: 50%;
+}
+.text1 { /*Descripción de la página*/
 	margin: 16% 0 10% 0; 
 	font-size: 3.2em;
 }
 .c-Bla, ul.navbar-right li a {
 	color: white;
+}
+.icon-bar {
+	border: .2em solid white;
 }
 .btn-Az {
 	border: 2px solid white !important;
@@ -30,8 +41,52 @@
 	margin-top: 2%;
 }
 .mt-3 {
-	margin: 3% 0;
+	margin-top: 3%;
 }
 .mt-5 {
+	margin-top: 5%;
+}
+.m-3 {
+	margin: 3% 0;
+}
+.m-5 {
 	margin: 5% 0;
+}
+.m-10 {
+	margin: 10% 0;
+}
+/*ANIMACIONES*/
+#menu {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+#menu:hover {
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);    
+}
+/*LOGOS*/
+#logo2 {
+	width: 35%;
+}
+.opcion {
+	width: 30%;
+	height: 100%;
+	padding: 10%;
+	margin: auto;
+	color: rgb(104, 135, 229);
+	box-shadow: -1px 2px 5px #999;
+}
+.logoP {
+	color: white;
+	width: 9%;
+	height: 14%;
+	background-color: rgb(104, 135, 229);
+	padding: 2%;
+	margin-top: 15%;
+	position: relative;
+	left: 98%;
+}
+.opcion, .logoP {
+	border-radius: 100%;
+	font-size: 1.9em;
 }
