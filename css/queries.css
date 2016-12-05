@@ -7,6 +7,13 @@
 	}
 }
 @media screen and (max-width :780px) {
-	.flecha, .logoP {
-		opacity: 0;
+	.flecha, .logoP, .separador, .fon-img {
+		display: none !important;
 	}
+	iframe {
+		width: 100%;
+	}
+	footer, .contacto {
+		text-align: center !important;
+	}
+}
