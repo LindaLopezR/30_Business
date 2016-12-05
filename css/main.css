@@ -19,7 +19,7 @@
 	background-image: url(../image/sec-2.jpg);
 }
 .fon-Gr {
-	background-color: rgba(88, 88, 88, .7);	
+	background-color: rgba(88, 88, 88, .5);	
 }
 #fon-Gr2 {
 	background-color: rgba(88, 88, 88, .4);	
@@ -155,4 +155,7 @@
 }
 .rojo {
 	color: red;
+}
+.contacto {
+	text-align: right;
 }
